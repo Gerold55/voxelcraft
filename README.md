@@ -1,1 +1,1 @@
-# voxelcraft
+# VoxelCraft
