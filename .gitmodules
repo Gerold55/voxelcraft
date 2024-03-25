@@ -1,0 +1,3 @@
+[submodule "LuaBridge"]
+	path = voxelcraft/lua_files/LuaBridge
+	url = https://github.com/vinniefalco/LuaBridge/tree/master
