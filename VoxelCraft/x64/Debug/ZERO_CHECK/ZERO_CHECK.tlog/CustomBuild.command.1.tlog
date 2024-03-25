@@ -1,0 +1,10 @@
+^C:\USERS\MARLE\DOCUMENTS\VOXELCRAFT\VOXELCRAFT\CMAKEFILES\555C60368F9C36937F2EC3C4ADFF36B1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Marle/Documents/voxelcraft -BC:/Users/Marle/Documents/voxelcraft/VoxelCraft --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Marle/Documents/voxelcraft/VoxelCraft/VoxelCraft.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

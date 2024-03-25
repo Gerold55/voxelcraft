@@ -1,0 +1,2 @@
+﻿  VoxelCraft.cpp
+C:\Users\Marle\Documents\voxelcraft\VoxelCraft\VoxelCraft.cpp(3,10): error C1083: Cannot open include file: 'lua.hpp': No such file or directory

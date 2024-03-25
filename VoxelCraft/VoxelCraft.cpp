@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <vector>
+#include <lua_files/lua.hpp>
 #include <LuaBridge/LuaBridge.h>
-#include <lua.hpp>
 #include <GL/glut.h>
 
 const int WORLD_SIZE = 20; // Size of the game world grid
