@@ -1,6 +1,6 @@
 Build/
 
 .vs/
-.vscode/
+VoxelCraft/x64
 
 CMakeSettings.json
